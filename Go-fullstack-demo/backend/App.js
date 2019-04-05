@@ -6,7 +6,7 @@ const sauce = require('./models/sauce');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://mongodb+srv://will:<o6L2ZJiK2voCwuIG>@cluster0-czsym.mongodb.net/test?retryWrites=true')
+mongoose.connect('mongodb+srv://mongodb+srv://will:o6L2ZJiK2voCwuIG@cluster0-czsym.mongodb.net/test?retryWrites=true')
     .then(() => {
         console.log('Successfully connected to MongoDB Atlas.');
     })
